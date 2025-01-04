@@ -26,6 +26,7 @@ nav{
     display:flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0px 200px;
 }
 .nav-title{
     font-weight: 800;
@@ -43,4 +44,31 @@ a{
 li{
     margin-right:50px;
     color: #474747;
+}
+
+/* header related styles */
+.header{
+    background-color:#fff8f3 ;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.inner-banner{
+    width: 585px;
+}
+.banner-greeting{
+    font-size: 45px;
+    padding: 0px;
+    margin: 0px;
+}
+.banner-title{
+    font-size: 85px;
+    padding: 0px;
+    margin: 0px;
+}
+.banner>img{
+    width: 500px;
+    height: 600px;
 }
