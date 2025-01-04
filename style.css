@@ -49,26 +49,39 @@ li{
 /* header related styles */
 .header{
     background-color:#fff8f3 ;
+    background-image: url('images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    
+    
+
 }
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .inner-banner{
     width: 585px;
+}
+.inner-banner>p{
+    color: #474747;
 }
 .banner-greeting{
     font-size: 45px;
     padding: 0px;
     margin: 0px;
+    color: #474747;
 }
 .banner-title{
     font-size: 85px;
+    font-weight: 700;
     padding: 0px;
     margin: 0px;
 }
 .banner>img{
     width: 500px;
     height: 600px;
+    
 }
